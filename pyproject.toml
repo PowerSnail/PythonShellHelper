@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "shhelper"
+version = "1.0.0"
+description = ""
+authors = ["PowerSnail <han.j@protonmail.com>"]
+license = "MIT"
+
+packages = [
+    { include = "shhelper" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.761"
+black = "^19.10b0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
